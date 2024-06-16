@@ -1,0 +1,94 @@
+.side-nav {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  padding: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.link {
+  margin-bottom: 8px;
+  display: flex;
+  height: 80px;
+  align-items: end;
+  justify-content: start;
+  border-radius: 8px;
+  background-color: #2563eb; /* Equivalent to bg-blue-600 */
+  padding: 16px;
+}
+
+.link-large {
+  height: 160px; /* Equivalent to md:h-40 */
+}
+
+.link-text {
+  width: 128px; /* Equivalent to w-32 */
+  color: white;
+}
+
+.link-text-large {
+  width: 160px; /* Equivalent to md:w-40 */
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px; /* Equivalent to space-x-2 */
+}
+
+.content-large {
+  flex-direction: column;
+  gap: 8px; /* Equivalent to md:space-y-2 */
+}
+
+.placeholder {
+  display: none;
+  height: auto;
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 8px;
+  background-color: #f9fafb; /* Equivalent to bg-gray-50 */
+}
+
+.placeholder-large {
+  display: block;
+}
+
+.sign-out-form {
+  display: flex;
+  height: 48px; /* Equivalent to h-[48px] */
+  width: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Equivalent to gap-2 */
+  border-radius: 8px;
+  background-color: #f9fafb; /* Equivalent to bg-gray-50 */
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sign-out-form:hover {
+  background-color: #e0f2fe; /* Equivalent to hover:bg-sky-100 */
+  color: #2563eb; /* Equivalent to hover:text-blue-600 */
+}
+
+.sign-out-form-large {
+  flex: none;
+  justify-content: start;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.sign-out-text {
+  display: none;
+}
+
+.sign-out-text-large {
+  display: block;
+}
