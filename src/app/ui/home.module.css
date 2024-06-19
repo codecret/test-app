@@ -1,7 +1,63 @@
-.shape {
-  height: 0;
-  width: 0;
-  border-bottom: 30px solid black;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
+.coverDiv {
+  position: relative;
+  width: 100vw;
+  height: 200px !important;
+}
+.pagePadding {
+  padding: 2rem 2rem;
+}
+.pageHorizPadding {
+  padding: 0rem 2rem;
+}
+.heroImg {
+  position: relative;
+  padding: 0rem 2rem;
+  width: 100%;
+  margin: auto;
+}
+.FiltersContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.filterItem {
+  background-color: #eaeded !important;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* product */
+.productContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product {
+  position: relative;
+  width: 23%;
+  padding: 2rem 0rem;
+}
+.addedToCart {
+  background-color: #0046ce;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-weight: 300;
+}
+.notAddedToCart {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: black;
+  font-weight: 300;
 }

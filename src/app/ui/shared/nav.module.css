@@ -1,0 +1,80 @@
+.nav {
+  width: 100%;
+  background-color: white;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pointer {
+  cursor: pointer;
+}
+.ul {
+  display: flex;
+  gap: 3rem;
+  padding: 0rem 5rem;
+}
+
+.li {
+  list-style-type: none;
+  font-size: 0.75rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+.inputSearch {
+  flex: 1;
+  padding: 1rem;
+  width: 90%;
+}
+.search {
+  padding: 0.7rem 1rem;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color: #f6f7f8;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+.search::placeholder {
+  font-weight: 500;
+}
+.iconDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.leftSide {
+  display: flex;
+  align-items: center;
+}
+.rightSide {
+  display: flex;
+  flex: 1 1 auto;
+}
+.iconParent {
+  display: flex;
+  gap: 20px;
+}
+.iconParagraph {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* search */
+/* .inputSearch {
+  background: url(/search.svg) no-repeat scroll 300px 20px;
+  display: inline-block;
+}
+
+.inputSearch .search {
+  padding-left: 40px;
+  background-color: transparent !important;
+}
+
+.search:-webkit-autofill,
+.search:-webkit-autofill:hover,
+.search:-webkit-autofill:focus,
+.search:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+} */
