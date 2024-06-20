@@ -1,6 +1,7 @@
 import React from "react";
 import Product from "../shared/Product";
 import styles from "@/app/ui/home.module.css";
+import Filters from "./Filters";
 
 interface ProductType {
   id: number;
@@ -18,6 +19,7 @@ export default function FirstSectionsProduct({ sectionTitle, products }) {
   console.log(products);
   return (
     <div className={styles.pageHorizPadding}>
+      <Filters />
       <h1>{sectionTitle}</h1>
       <div className={styles.productContainer}>
         {products &&
